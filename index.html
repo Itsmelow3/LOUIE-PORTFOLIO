@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Louie Jhay | Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">Louie Jhay<span class="dot">.</span></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio-graphic">Portfolio</a>
+        <a href="#Background-info">Background</a>
+        <a href="#contacts">Contact</a>
+    </nav>
+</header>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Louie Jhay Catolos</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>Welcome to my personal website. I'm a specialized creative focusing on Graphic Design, Motion Graphics, and Information Technology. Let's create something amazing together.</p>
+        
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100033298003183" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://twitter.com/LoweJhay" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/itsmelow3/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.behance.net/louiecatolos" target="_blank"><i class='bx bxl-behance'></i></a>
+        </div>
+        
+        <a href="#contacts" class="btn">Contact Me</a>
+    </div>
+
+    <div class="home-img">
+        <img src="About-img.png" alt="Profile Picture">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="About-img.png" alt="About Me">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Layout Artist & IT Student</h3>
+        <p>I am currently pursuing a Bachelor of Science in Information Technology at the University of Perpetual Help System-Laguna. Beyond code, I have a deep passion for visual storytelling. I specialize in Web Design, Layout Artistry, Video Editing, and VFX.</p>
+        <a href="#Background-info" class="btn">Read More</a>
+    </div>
+</section>
+
+<section class="portfolio" id="portfolio-graphic">
+    <h2 class="heading">Graphic <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box" onclick="openLightbox('1stissue.jpg', 'img')">
+            <img src="1stissue.jpg" alt="Magazine 1">
+            <div class="portfolio-layer">
+                <h4>Magazine</h4>
+                <p>Volume No. 17, First Issue of the Perpetual Gazette.</p>
+                <div class="icon-btn"><i class='bx bx-zoom-in'></i></div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="openLightbox('2ndissue.jpg', 'img')">
+            <img src="2ndissue.jpg" alt="Magazine 2">
+            <div class="portfolio-layer">
+                <h4>Magazine</h4>
+                <p>Volume No. 18, Second Issue of the Perpetual Gazette.</p>
+                <div class="icon-btn"><i class='bx bx-zoom-in'></i></div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="openLightbox('Perps Bente2.jpg', 'img')">
+            <img src="Perps Bente2.jpg" alt="Shirt Design">
+            <div class="portfolio-layer">
+                <h4>Shirt Design</h4>
+                <p>UPHS-IC 20th University Week T-shirt.</p>
+                <div class="icon-btn"><i class='bx bx-zoom-in'></i></div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="openLightbox('Banner.jpg', 'img')">
+            <img src="Banner.jpg" alt="Banner">
+            <div class="portfolio-layer">
+                <h4>Banner</h4>
+                <p>20th University Week Banner Design.</p>
+                <div class="icon-btn"><i class='bx bx-zoom-in'></i></div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="openLightbox('19TH.jpg', 'img')">
+            <img src="19TH.jpg" alt="Logo">
+            <div class="portfolio-layer">
+                <h4>Logo</h4>
+                <p>20th University Week Logo Design.</p>
+                <div class="icon-btn"><i class='bx bx-zoom-in'></i></div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="openLightbox('2ND TRIAL.png.jpg', 'img')">
+            <img src="2ND TRIAL.png.jpg" alt="Cartoon">
+            <div class="portfolio-layer">
+                <h4>Cartoon</h4>
+                <p>School paper cartoon for La Salette.</p>
+                <div class="icon-btn"><i class='bx bx-zoom-in'></i></div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="openLightbox('FRAME.jpg', 'img')">
+            <img src="FRAME.jpg" alt="Frame">
+            <div class="portfolio-layer">
+                <h4>Frame</h4>
+                <p>FB Blast Frame S.Y. 2023-2024.</p>
+                <div class="icon-btn"><i class='bx bx-zoom-in'></i></div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="openLightbox('Businesscard.jpg', 'img')">
+            <img src="Businesscard.jpg" alt="Card">
+            <div class="portfolio-layer">
+                <h4>Business Card</h4>
+                <p>Event Hosting Logo and Card.</p>
+                <div class="icon-btn"><i class='bx bx-zoom-in'></i></div>
+            </div>
+        </div>
+
+         <div class="portfolio-box" onclick="openLightbox('PUBMAT.jpg', 'img')">
+            <img src="PUBMAT.jpg" alt="Pubmat">
+            <div class="portfolio-layer">
+                <h4>PUBMAT</h4>
+                <p>Perpetual Gazette Publication Material.</p>
+                <div class="icon-btn"><i class='bx bx-zoom-in'></i></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="portfolio-motion">
+    <h2 class="heading">Motion <span>Graphics</span></h2>
+    
+    <div class="portfolio-container">
+        <div class="portfolio-box" onclick="openLightbox('PERPS BENTE TEASER FINAL.mp4', 'video')">
+            <video muted loop>
+                <source src="PERPS BENTE TEASER FINAL.mp4" type="video/mp4">
+            </video>
+            <div class="portfolio-layer">
+                <h4>20th University Week</h4>
+                <p>Teaser for the biggest event of the year.</p>
+                <div class="icon-btn"><i class='bx bx-play-circle'></i></div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="openLightbox('CHRISTMAS TEASER 1.0.mp4', 'video')">
+            <video muted loop>
+                <source src="CHRISTMAS TEASER 1.0.mp4" type="video/mp4">
+            </video>
+            <div class="portfolio-layer">
+                <h4>Christmas Teaser</h4>
+                <p>Annual Christmas tree Lighting ceremony.</p>
+                <div class="icon-btn"><i class='bx bx-play-circle'></i></div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="openLightbox('TEASER 10.19.23.mp4', 'video')">
+            <video muted loop>
+                <source src="TEASER 10.19.23.mp4" type="video/mp4">
+            </video>
+            <div class="portfolio-layer">
+                <h4>Greatest Perpetualite Show</h4>
+                <p>Acquaintance Party Teaser.</p>
+                <div class="icon-btn"><i class='bx bx-play-circle'></i></div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="openLightbox('19th university week teaser.mp4', 'video')">
+            <video muted loop>
+                <source src="19th university week teaser.mp4" type="video/mp4">
+            </video>
+            <div class="portfolio-layer">
+                <h4>19th University Week</h4>
+                <p>Treasures Unfold Teaser.</p>
+                <div class="icon-btn"><i class='bx bx-play-circle'></i></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="Background-info">
+    <h2 class="heading">My <span>Background</span></h2>
+
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bxs-user-detail'></i>
+            <h3>Personal Info</h3>
+            <p><strong>Name:</strong> Louie Jhay Catolos<br>
+            <strong>Date of Birth:</strong> Nov 06, 2004<br>
+            <strong>Location:</strong> Isabela, Philippines<br>
+            <strong>Language:</strong> English, Tagalog, Ilocano</p>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxs-graduation'></i>
+            <h3>Education</h3>
+            <p><strong>College:</strong> UPHS - Laguna (Current)<br>
+            <strong>High School:</strong> La Salette of Cabatuan (With Honors)<br>
+            <strong>Awards:</strong> Best in Religion, Top 6 (Elem)</p>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxs-briefcase-alt-2'></i>
+            <h3>Experience</h3>
+            <p><strong>Present:</strong> Senior Layout Artist (UPH Publication)<br>
+            <strong>Past:</strong> School Cartoonist (2 Years)<br>
+            <strong>Training:</strong> OSSEI National Journalism Seminar</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contacts">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="https://formsubmit.co/louiejhaycatolos02@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Message from Portfolio Website">
+        <input type="hidden" name="_template" value="table">
+        
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        
+        <div class="input-box">
+            <input type="number" name="mobile" placeholder="Mobile Number">
+            <input type="text" name="msg_subject" placeholder="Email Subject" required>
+        </div>
+        
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by Louie Jhay | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+    <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+    <div class="lightbox-content" id="lightbox-content">
+        </div>
+</div>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+
+    let menuIcon = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menuIcon.onclick = () => {
+        menuIcon.classList.toggle('bx-x');
+        navbar.classList.toggle('active');
+    };
+
+    window.onscroll = () => {
+        menuIcon.classList.remove('bx-x');
+        navbar.classList.remove('active');
+    };
+
+    const typed = new Typed('.multiple-text', {
+        strings: ['Graphic Artist', 'IT Student', 'Video Editor'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    });
+
+    const lightbox = document.getElementById('lightbox');
+    const lightboxContent = document.getElementById('lightbox-content');
+
+    function openLightbox(file, type) {
+        lightbox.style.display = 'flex';
+        
+        if (type === 'img') {
+            lightboxContent.innerHTML = `<img src="${file}" alt="Portfolio Fullscreen">`;
+        } else if (type === 'video') {
+            lightboxContent.innerHTML = `
+                <video controls autoplay>
+                    <source src="${file}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>`;
+        }
+    }
+
+    function closeLightbox() {
+        lightbox.style.display = 'none';
+        lightboxContent.innerHTML = ''; 
+    }
+
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+</script>
+
+</body>
+</html>
